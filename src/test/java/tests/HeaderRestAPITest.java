@@ -10,7 +10,7 @@ public class HeaderRestAPITest extends AbstractRestAPITest {
 
 //  this test checks if a header element contains desired value
     @Test
-    public void should_emails_have_correct_format() throws Exception {
+    public void should_header_element_have_correct_value() throws Exception {
 
         given(restAPIConfig.spec)
             .accept(ContentType.JSON)
