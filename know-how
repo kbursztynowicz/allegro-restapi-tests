@@ -1,0 +1,7 @@
+In order to implement those two REST API tests, I have used Java8, Junit, Maven, RestAssured as main technologies.
+Basic configuration can be defined in the RestAPIConfig class (base URI).
+HeaderRestAPITest class contains a test that checks if request header contains desired value of an header element
+ upon calling head method on /posts endpoint.
+ResponseEmailValidatorTest class has defined a test that calls get method on /comments endpoint and extracts collection of email addresses.Then
+ all email addresses are checked for their format correctness.
+In order to run a test, right-click on a class containing @Test annotaion and select 'Run' from the context-menu.
